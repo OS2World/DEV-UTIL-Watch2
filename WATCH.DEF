@@ -1,0 +1,19 @@
+NAME WATCH WINDOWAPI NEWFILES
+
+DESCRIPTION 'OS/2 PM Watch Debugging Utility'
+
+STUB 'OS2STUB.EXE'
+
+CODE MOVABLE
+DATA MOVABLE MULTIPLE
+
+HEAPSIZE  1024
+STACKSIZE 8192
+
+PROTMODE
+
+EXPORTS
+     MainWndProc        @1
+     AboutDlgProc       @2
+     LogFileDlgProc     @3
+
